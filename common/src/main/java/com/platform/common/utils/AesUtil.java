@@ -1,3 +1,4 @@
+/*
 package com.platform.common.utils;
 
 import com.alibaba.fastjson.JSON;
@@ -17,20 +18,24 @@ import java.security.Security;
 import java.security.spec.AlgorithmParameterSpec;
 import java.util.*;
 
+*/
 /**
  * Description: Aes加密
- */
+ *//*
+
 public class AesUtil {
     public static final String AES_ENCRYPT_PASSWORD = "1f17417b2227b356";
     public static final String AES_ENCRYPT_VI = "ab6b2dfd69f5fb91";
 
-    /**
+    */
+/**
      * aes加密
      * @param content
      * @param password
      * @param vi
      * @return
-     */
+     *//*
+
     public static String aesPKCS7PaddingEncrypt(String content, String password, String vi) {
 
         try {
@@ -64,13 +69,15 @@ public class AesUtil {
         return null;
     }
 
-    /**
+    */
+/**
      * aes解密
      * @param content
      * @param password
      * @param vi
      * @return
-     */
+     *//*
+
     public static String aesPKCS7PaddingDecrypt(String content, String password, String vi) {
 
         try {
@@ -105,3 +112,4 @@ public class AesUtil {
         initialized = true;
     }
 }
+*/
