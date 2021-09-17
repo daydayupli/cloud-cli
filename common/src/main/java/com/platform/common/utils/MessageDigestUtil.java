@@ -50,7 +50,7 @@ public class MessageDigestUtil {
      * @param algorithm 表示算法
      * @return
      */
-    private static String getDigestFile(String filePath, String algorithm)
+    public static String getDigestFile(String filePath, String algorithm)
             throws Exception{
         // 通过io流的方式读取文件
         FileInputStream fis = new FileInputStream(filePath);
@@ -78,7 +78,7 @@ public class MessageDigestUtil {
      * @return
      * @throws Exception
      */
-    private static String getDigest(String input, String algorithm)
+    public static String getDigest(String input, String algorithm)
             throws Exception {
         // 创建消息摘要对象
         MessageDigest digest = MessageDigest.getInstance(algorithm);
